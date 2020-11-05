@@ -13,3 +13,10 @@ This can be accomplished by adding a `.env` file to the root of this directory w
 ```
 REACT_APP_GIPHY_API_KEY=...
 ```
+
+## Remaining work
+
+Ideally this:
+
+1. should check the browser and use webp instead of mp4 for Chrome, as per the [Giphy rendition guide](https://developers.giphy.com/docs/optional-settings#rendition-guide).
+2. have tests :) 
