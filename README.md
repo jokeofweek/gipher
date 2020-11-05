@@ -16,7 +16,8 @@ REACT_APP_GIPHY_API_KEY=...
 
 ## Remaining work
 
-Ideally this:
+Ideally this should:
 
-1. should check the browser and use webp instead of mp4 for Chrome, as per the [Giphy rendition guide](https://developers.giphy.com/docs/optional-settings#rendition-guide).
-2. have tests :) 
+1. check the browser and use webp instead of mp4 for Chrome, as per the [Giphy rendition guide](https://developers.giphy.com/docs/optional-settings#rendition-guide).
+1. provide a way to recover from errors... a manual retry button could work. It would dispatch a `LOAD_MORE` action.
+1. have tests :) 
