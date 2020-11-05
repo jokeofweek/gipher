@@ -1,0 +1,16 @@
+.searchBar {
+  background-color: #19053A;
+  box-sizing: border-box;
+  height: 40px;
+  padding: 4px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.searchBar input {
+  box-sizing: border-box;
+  font-size: 18px;
+  height: 32px;
+  width: 250px;
+}

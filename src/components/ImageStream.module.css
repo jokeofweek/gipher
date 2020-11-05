@@ -1,0 +1,51 @@
+.imageStreamContainer {
+  background-color: #8D79AE;
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 1000px;
+  min-height: 100%;
+  
+  /* 
+   * We only add a top and left gutter. Images will add padding on
+   * the right and bottom.
+   *
+   * The top gutter must also account for the search bar.
+   */
+  padding: 48px 0 0 8px;
+  width: 100%;
+}
+
+.imageStream {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.imageContainer {
+  flex: auto;
+  height: 180px;
+  margin: 0 8px 8px 0;
+}
+
+.scrollSentinel {
+  height: 1px;
+  width: 1px;
+}
+
+.loadingSpinner {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.imageStream p {
+  flex-basis: 100%;
+  padding: 16px 8px 8px 8px;
+  text-align: center;
+}
+
+/* If the paragraph tag has an image container before it, then add a border. */
+.imageContainer ~ p {
+  border-top: 2px dashed #19053A;
+  /* Account for the right padding on the image containers. */
+  margin-right: 8px;
+}

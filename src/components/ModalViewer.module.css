@@ -1,0 +1,22 @@
+.modalViewer {
+  background-color: rgba(0, 0, 0, 0.95);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.modalViewer button {
+  font-size: 24px;
+  height: 40px;
+  margin: 4px;
+}
+
+.modalViewer video {
+  /* Need to account for the close button. */
+  height: calc(100% - 48px);
+  width: 100%;
+}
